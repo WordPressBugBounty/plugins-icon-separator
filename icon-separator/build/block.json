@@ -50,7 +50,10 @@
   },
   "supports": {
     "html": false,
-    "align": true
+    "align": true,
+    "interactivity": {
+      "clientNavigation": true
+    }
   },
   "textdomain": "icon-separator",
   "editorScript": "file:./index.js",
