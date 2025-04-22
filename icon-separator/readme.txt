@@ -3,7 +3,7 @@ Contributors:      Mr2P
 Tags:              block, separator, SVG, icon, divider
 Requires PHP:      7.0.0
 Requires at least: 6.5
-Tested up to:      6.7
+Tested up to:      6.8
 Stable tag:        1.2.3
 License:           GPL-3.0
 License URI:       https://www.gnu.org/licenses/gpl-3.0.html
