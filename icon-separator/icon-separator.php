@@ -4,10 +4,11 @@
  * Description:       A simple horizontal separator with icon.
  * Requires at least: 6.5
  * Requires PHP:      7.0
- * Version:           1.2.3
+ * Version:           1.2.4
  * Author:            Phi Phan
  * Author URI:        https://boldblocks.net
  * Plugin URI:        https://boldblocks.net?utm_source=Icon+Separator&utm_campaign=visit+site&utm_medium=link&utm_content=Plugin+URI
+ * License:           GPL-3.0
  *
  * @package   IconSeparator
  * @copyright Copyright(c) 2022, Phi Phan

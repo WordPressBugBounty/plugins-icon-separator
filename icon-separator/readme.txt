@@ -1,10 +1,10 @@
 === Icon Separator ===
 Contributors:      Mr2P
 Tags:              block, separator, SVG, icon, divider
-Requires PHP:      7.0.0
+Requires PHP:      7.0
 Requires at least: 6.5
-Tested up to:      6.8
-Stable tag:        1.2.3
+Tested up to:      6.9
+Stable tag:        1.2.4
 License:           GPL-3.0
 License URI:       https://www.gnu.org/licenses/gpl-3.0.html
 Donate link:       https://boldblocks.net?utm_source=wp.org&utm_campaign=readme&utm_medium=link&utm_content=Icon+Separator+Donate
@@ -41,7 +41,7 @@ The plugin is developed using @wordpress/create-block.
 
 == Installation ==
 
-1. Upload the plugin files to the `/wp-content/plugins/icon-separator` directory, or install the plugin through the WordPress plugins screen directly.
+1. Upload the plugin files to the `/wp-content/plugins` directory, or install the plugin through the WordPress plugins screen directly.
 1. Activate the plugin through the 'Plugins' screen in WordPress
 
 
@@ -70,6 +70,12 @@ Anyone can use this plugin.
 2. Change the separator's settings
 
 == Changelog ==
+
+= 1.2.4 =
+*Release Date - 22 November 2024*
+
+* Updated - SDK to improve controls and utilities.
+* Fixed   - SVGs from the media library overriding icons from the icon library.
 
 = 1.2.3 =
 *Release Date - 24 October 2024*

@@ -94,7 +94,7 @@ if ( ! class_exists( IconLibrary::class ) ) :
 			$media_svg_images = $this->query_svg_images();
 
 			if ( $media_svg_images ) {
-				$icons = $media_svg_images + $icons;
+				$icons = array_merge( $media_svg_images, $icons );
 			}
 
 			wp_send_json(
@@ -123,6 +123,7 @@ if ( ! class_exists( IconLibrary::class ) ) :
 
 			if ( $images ) {
 				foreach ( $images as $image ) {
+					// phpcs:ignore WordPress.WP.AlternativeFunctions.file_get_contents_file_get_contents
 					$icon = file_get_contents( get_attached_file( $image->ID ) );
 					if ( $icon ) {
 						$media_svgs[] = [
